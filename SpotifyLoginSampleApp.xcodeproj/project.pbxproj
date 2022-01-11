@@ -7,23 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C6B3355278CE0BA00AF7D02 /* EnterEmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6B3354278CE0BA00AF7D02 /* EnterEmailViewController.swift */; };
+		1C6B3357278CEC0B00AF7D02 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6B3356278CEC0B00AF7D02 /* MainViewController.swift */; };
 		1CA6BB9D278CC2CA00CDB0DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA6BB9C278CC2CA00CDB0DB /* AppDelegate.swift */; };
 		1CA6BB9F278CC2CA00CDB0DB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA6BB9E278CC2CA00CDB0DB /* SceneDelegate.swift */; };
-		1CA6BBA1278CC2CA00CDB0DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA6BBA0278CC2CA00CDB0DB /* ViewController.swift */; };
 		1CA6BBA4278CC2CA00CDB0DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CA6BBA2278CC2CA00CDB0DB /* Main.storyboard */; };
 		1CA6BBA6278CC2CB00CDB0DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CA6BBA5278CC2CB00CDB0DB /* Assets.xcassets */; };
 		1CA6BBA9278CC2CB00CDB0DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CA6BBA7278CC2CB00CDB0DB /* LaunchScreen.storyboard */; };
+		1CA6BBB1278CC2F700CDB0DB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA6BBB0278CC2F700CDB0DB /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C6B3354278CE0BA00AF7D02 /* EnterEmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterEmailViewController.swift; sourceTree = "<group>"; };
+		1C6B3356278CEC0B00AF7D02 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		1CA6BB99278CC2CA00CDB0DB /* SpotifyLoginSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpotifyLoginSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CA6BB9C278CC2CA00CDB0DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1CA6BB9E278CC2CA00CDB0DB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1CA6BBA0278CC2CA00CDB0DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1CA6BBA3278CC2CA00CDB0DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1CA6BBA5278CC2CB00CDB0DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1CA6BBA8278CC2CB00CDB0DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1CA6BBAA278CC2CB00CDB0DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CA6BBB0278CC2F700CDB0DB /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +62,10 @@
 			children = (
 				1CA6BB9C278CC2CA00CDB0DB /* AppDelegate.swift */,
 				1CA6BB9E278CC2CA00CDB0DB /* SceneDelegate.swift */,
-				1CA6BBA0278CC2CA00CDB0DB /* ViewController.swift */,
 				1CA6BBA2278CC2CA00CDB0DB /* Main.storyboard */,
+				1C6B3354278CE0BA00AF7D02 /* EnterEmailViewController.swift */,
+				1C6B3356278CEC0B00AF7D02 /* MainViewController.swift */,
+				1CA6BBB0278CC2F700CDB0DB /* LoginViewController.swift */,
 				1CA6BBA5278CC2CB00CDB0DB /* Assets.xcassets */,
 				1CA6BBA7278CC2CB00CDB0DB /* LaunchScreen.storyboard */,
 				1CA6BBAA278CC2CB00CDB0DB /* Info.plist */,
@@ -138,9 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CA6BBA1278CC2CA00CDB0DB /* ViewController.swift in Sources */,
+				1CA6BBB1278CC2F700CDB0DB /* LoginViewController.swift in Sources */,
 				1CA6BB9D278CC2CA00CDB0DB /* AppDelegate.swift in Sources */,
+				1C6B3355278CE0BA00AF7D02 /* EnterEmailViewController.swift in Sources */,
 				1CA6BB9F278CC2CA00CDB0DB /* SceneDelegate.swift in Sources */,
+				1C6B3357278CEC0B00AF7D02 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
